@@ -2,7 +2,7 @@ FROM adoptopenjdk/openjdk11:alpine-jre
 
 WORKDIR /opt/app
 
-ARG JAR_FILE=target/dockerized-app-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=target/cicd-jenkins-demo-0.0.1-SNAPSHOT.jar
 
 COPY ${JAR_FILE} app.jar
 
